@@ -51,8 +51,7 @@ README.md # This file
 ---
 
 ## 📈 Dashboard Preview
-
-> *📊 Hosted on Tableau Public (add link if published)*
+-https://public.tableau.com/views/SurveyDashboard_Dissertation/PriceSensitivity?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
