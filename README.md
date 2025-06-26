@@ -1,66 +1,113 @@
 # 📱 Smartphone Consumer Analysis
 
-This project explores smartphone consumer preferences and pricing trends using data analytics. By combining SQL, Python, and Tableau, it visualizes how user priorities (camera, battery, screen size) impact purchasing behavior and pricing over time.
+A comprehensive data-driven exploration into **smartphone consumer behavior** using survey data, statistical analysis, and data visualization tools.
+
+---
+
+## 📂 Project Structure
+
+```
+Smartphone_Consumer_Analysis/
+├── Code.ipynb                        # Main Python analysis and visualizations
+├── T_Test.ipynb                      # T-Test statistical comparison
+├── SurveyResponses.csv              # Primary survey data
+├── Mobiles Dataset (2025).csv       # Secondary dataset for deeper insights
+├── Survey_db.sql                    # SQL schema to build the survey database
+├── SurveyDashboard.twb              # Tableau dashboard (visual analytics)
+└── README.md                        # 📍 You are here
+```
 
 ---
 
 ## 🎯 Objective
 
-To analyze and visualize:
-
-- How smartphone features like **camera**, **battery life**, and **screen size** influence consumer buying decisions
-- How **pricing trends** evolve over time based on consumer preferences
-- The effect of **brand reputation** and **market shifts** on purchase patterns
-
----
-
-## 🛠 Tools & Technologies
-
-- **MySQL** — for storing and querying smartphone specs & user responses
-- **Python (Pandas, Matplotlib, Seaborn)** — for data analysis & visualization
-- **Tableau** — for interactive dashboards and consumer insights
+To understand **consumer preferences, brand loyalty, and decision factors** in the smartphone market through:
+- Direct survey responses
+- Secondary market data
+- Visual analytics and hypothesis testing
 
 ---
 
-## 📊 Project Structure
-📁 data/ # Raw and cleaned survey data
-📁 sql/ # SQL schema and queries
-📁 notebooks/ # Python analysis notebooks
-📁 dashboard/ # Tableau workbook (.twb)
-README.md # This file
+## 🧠 Key Questions Addressed
+
+- What factors drive smartphone purchase decisions?
+- How loyal are users to their current brands?
+- Are users willing to pay a premium for features or brand reputation?
+- How often do people upgrade, and what triggers a switch?
 
 ---
 
-## 📁 Files Included
+## 🛠️ Tools & Technologies
 
-- `SurveyResponses.csv` — cleaned dataset of user preferences
-- `Code.ipynb` — feature analysis and pricing correlation
-- `T_Test.ipynb` — hypothesis testing (feature impact on price)
-- `SQL.sql` — schema and basic queries
-- `SurveyDashboard.twb` — Tableau visualizations
-
----
-
-## 🔍 Key Insights
-
-- 📷 **Camera quality** has a strong correlation with higher pricing
-- 🔋 **Battery life** is a top priority for mid-range buyers
-- 🧠 Brand loyalty influences price tolerance significantly
-- 💸 Price bands shift based on launch cycles and brand tier
+| Tool        | Purpose                                 |
+|-------------|-----------------------------------------|
+| **Python (Pandas, Seaborn, Matplotlib)** | Data cleaning & visual exploration |
+| **MySQL**   | Database creation and data storage       |
+| **Tableau** | Interactive dashboard and analysis       |
+| **GitHub**  | Project version control and sharing      |
 
 ---
 
-## 📈 Dashboard Preview
--https://public.tableau.com/views/SurveyDashboard_Dissertation/PriceSensitivity?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+## 🔗 Tableau Dashboard
+
+📊 **Interactive visual dashboard** was created in Tableau and can be found in `SurveyDashboard.twb`.
+
+It includes:
+- Brand preference breakdowns
+- Feature importance ratings
+- Budget vs. Brand loyalty heatmaps
 
 ---
 
-## 📬 Contact
+## 📌 How to Use
 
-- 📧 kurrarevanthreddy14@gmail.com  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/revanth-reddy-kurra-6b632a2b6/)
+### 1. Clone this Repository
+```bash
+git clone https://github.com/kurrarevanthreddy14/Smartphone_Consumer_Analysis.git
+cd Smartphone_Consumer_Analysis
+```
+
+### 2. Load the Survey SQL Database (Optional)
+```sql
+SOURCE Survey_db.sql;
+```
+
+### 3. Run Python Analyses
+Open `Code.ipynb` or `T_Test.ipynb` in Jupyter Notebook or any compatible environment.
 
 ---
 
-> ⚡ Built with passion for data and insight-driven storytelling.
+## 📁 Datasets
+
+- `SurveyResponses.csv`: Direct responses from participants (51 entries).
+- `Mobiles Dataset (2025).csv`: Supplementary data for market features and pricing.
+
+---
+
+## 📊 Insights (Highlights)
+
+- **65%+ users** consider budget as the top constraint.
+- **Brand switching** often happens for better camera or pricing.
+- **Apple and Samsung** dominate in both satisfaction and loyalty metrics.
+- **Younger users (18–24)** are more flexible in switching brands.
+
+---
+
+## 📚 Future Work
+
+- Extend analysis to include reviews/sentiment mining.
+- Deploy dashboard via Tableau Public or Streamlit.
+- Conduct regression analysis on pricing vs. feature trade-offs.
+
+---
+
+## 🙌 Acknowledgments
+
+This work is part of a dissertation project exploring consumer analytics in the smartphone industry. Data was collected through self-designed surveys and supplemented by publicly available datasets.
+
+---
+
+## 🔒 Disclaimer
+
+This repository is for **academic and non-commercial use** only. All personally identifiable information (PII) has been excluded.
 
