@@ -1,3 +1,4 @@
+
 # 📱 Smartphone Consumer Analysis
 
 A comprehensive data-driven exploration into **smartphone consumer behavior** using survey data, statistical analysis, and data visualization tools.
@@ -48,32 +49,16 @@ To understand **consumer preferences, brand loyalty, and decision factors** in t
 
 ---
 
-## 🔗 Tableau Dashboard
+## 📊 Tableau Dashboard
 
-📊 **Interactive visual dashboard** was created in Tableau and can be found in `SurveyDashboard.twb`.
+📊 Explore the **interactive Tableau dashboard** here:  
+🔗 [Survey Dashboard – Price Sensitivity (Tableau Public)](https://public.tableau.com/app/profile/revanth.reddy.kurra/viz/SurveyDashboard_Dissertation/PriceSensitivity?publish=yes)
 
 It includes:
-- Brand preference breakdowns
-- Feature importance ratings
-- Budget vs. Brand loyalty heatmaps
-
----
-
-## 📌 How to Use
-
-### 1. Clone this Repository
-```bash
-git clone https://github.com/kurrarevanthreddy14/Smartphone_Consumer_Analysis.git
-cd Smartphone_Consumer_Analysis
-```
-
-### 2. Load the Survey SQL Database (Optional)
-```sql
-SOURCE Survey_db.sql;
-```
-
-### 3. Run Python Analyses
-Open `Code.ipynb` or `T_Test.ipynb` in Jupyter Notebook or any compatible environment.
+> - Price Sensitivity
+> - Preferred Platforms & Brands
+> - Upgrade Frequency
+> - Demographic Analysis
 
 ---
 
@@ -93,14 +78,6 @@ Open `Code.ipynb` or `T_Test.ipynb` in Jupyter Notebook or any compatible enviro
 
 ---
 
-## 📚 Future Work
-
-- Extend analysis to include reviews/sentiment mining.
-- Deploy dashboard via Tableau Public or Streamlit.
-- Conduct regression analysis on pricing vs. feature trade-offs.
-
----
-
 ## 🙌 Acknowledgments
 
 This work is part of a dissertation project exploring consumer analytics in the smartphone industry. Data was collected through self-designed surveys and supplemented by publicly available datasets.
@@ -110,4 +87,5 @@ This work is part of a dissertation project exploring consumer analytics in the 
 ## 🔒 Disclaimer
 
 This repository is for **academic and non-commercial use** only. All personally identifiable information (PII) has been excluded.
+
 
